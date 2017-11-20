@@ -1,5 +1,5 @@
 {
-  "name": "react-boilerplate",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nakiruy/reactBoilerplate.git"
+    "url": "git+https://github.com/nakiruy/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nakiruy/reactBoilerplate/issues"
+    "url": "https://github.com/nakiruy/portfolio/issues"
   },
-  "homepage": "https://github.com/nakiruy/reactBoilerplate#readme",
+  "homepage": "https://github.com/nakiruy/portfolio#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
