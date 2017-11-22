@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Headline extends React.Component {
+class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,12 +11,11 @@ class Headline extends React.Component {
 
   render() {
     return (
-      <div id="headline">
-        <h1>Yurika Jacobsson</h1>
-        <h3>I design & code with an emphasis on UX</h3>
+      <div id="about">
+        <h5>ABOUT</h5>
       </div>
     )
   }
 }
 
-export default Headline
+export default About
