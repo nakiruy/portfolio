@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import NavBar from './NavBar';
-
-class App extends React.Component {
+class Headline extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -13,11 +11,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <NavBar />
+      <div id="headline">
+        <h3>Yurika Jacobsson</h3>
+        <h4>I design & code with an emphasis on UX</h4>
       </div>
     )
   }
 }
 
-export default App
+export default Headline
