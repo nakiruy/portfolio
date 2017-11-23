@@ -12,6 +12,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div id="contact">
+        <h5>CONTACT</h5>
         <a href="https://www.instagram.com/yurikaffeine/">
           <img class="image" src="./assets/instagram.png" alt="Instagram" /></a>
         <a href="https://github.com/nakiruy">
