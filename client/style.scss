@@ -1,5 +1,7 @@
 $font-stack: "Lato", "sans-serif";
+$variable: yellow;
 
 body {
   font: $font-stack;
+  background: $variable;
 }
