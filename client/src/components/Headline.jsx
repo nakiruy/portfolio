@@ -11,9 +11,9 @@ class Headline extends React.Component {
 
   render() {
     return (
-      <div id="headline">
-        <h1>Yurika Jacobsson</h1>
-        <h3>I design & code with an emphasis on UX</h3>
+      <div id="header">
+        <h1 id="name">YURIKA JACOBSSON</h1>
+        <h3 id="headline">I design & code with an emphasis on UX</h3>
       </div>
     )
   }

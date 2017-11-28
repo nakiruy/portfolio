@@ -1,7 +1,87 @@
-$font-stack: "Lato", "sans-serif";
-$variable: yellow;
+$body-font: 'Lato', sans-serif;
+$navbar-font: 'Roboto', sans-serif;
+$logo-font: 'Pacifico', cursive;
+$name-font: 'Work Sans', sans-serif;
+
+$navbar-font-color: #505050;
+
 
 body {
-  font: $font-stack;
-  background: $variable;
+  font-family: $body-font;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 14px;
+}
+
+li a {
+  text-decoration: none;
+  color: $navbar-font-color;
+  padding: 20px;
+}
+
+nav {
+  float: right;
+}
+
+#navBar {
+  margin: 20px 0px;
+}
+
+#logo {
+  font-family: $logo-font;
+  float: left;
+  padding: 0px 0px 0px 20px;
+  font-size: 20px;
+}
+
+#header {
+  text-align: center;
+  padding: 150px 0px 0px 0px;
+}
+
+#name {
+  font-size: 64px;
+  font-family: $name-font;
+}
+
+#headline {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+#contact-button {
+  text-align: center;
+}
+
+button {
+  font-size: 14px;
+  border: none;
+  background-color: #A9A9A9;
+  color: white;
+  padding: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+#portfolio {
+  text-align: center;
+  margin: 100px 0px 0px;
+}
+
+#about {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+h5 {
+  font-style: bold;
 }

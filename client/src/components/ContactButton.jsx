@@ -12,7 +12,7 @@ class ContactButton extends React.Component {
   render() {
     return (
       <div id="contact-button">
-        <button>Let's Connect 👋</button>
+        <button>LET'S CONNECT 👋</button>
       </div>
     )
   }
