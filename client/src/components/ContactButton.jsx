@@ -7,12 +7,16 @@ class ContactButton extends React.Component {
     this.state = {
 
     };
+
+    this.handleClick = () => {
+      console.log('this has been clicked');
+    }
   }
 
   render() {
     return (
       <div id="contact-button">
-        <button>LET'S CONNECT 👋</button>
+        <button onClick={this.handleClick}>LET'S CONNECT 👋</button>
       </div>
     )
   }
