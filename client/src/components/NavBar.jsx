@@ -11,7 +11,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div id="navBar">
+      <div className="navBar">
         <div id="logo">YJ</div>
         <nav>
           <li><a href="">Portfolio</a></li>

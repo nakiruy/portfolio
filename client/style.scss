@@ -29,7 +29,7 @@ nav {
   float: right;
 }
 
-#navBar {
+.navBar {
   margin: 20px 0px;
 }
 
@@ -84,5 +84,11 @@ button {
 }
 
 h5 {
-  font-style: bold;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.contact-icon {
+  width: 45px;
+  padding: 35px;
 }
