@@ -2,8 +2,9 @@ $body-font: 'Lato', sans-serif;
 $navbar-font: 'Roboto', sans-serif;
 $logo-font: 'Pacifico', cursive;
 $name-font: 'Work Sans', sans-serif;
-
 $navbar-font-color: #505050;
+$initial-box-shadow: 1px 1px 5px #888888;
+$button-color: #A9A9A9;
 
 
 body {
@@ -21,7 +22,7 @@ li {
 li a {
   text-decoration: none;
   color: $navbar-font-color;
-  padding: 20px;
+  padding: 30px;
 }
 
 nav {
@@ -45,7 +46,7 @@ nav {
 }
 
 #name {
-  font-size: 64px;
+  font-size: 54px;
   font-family: $name-font;
 }
 
@@ -61,12 +62,12 @@ nav {
 button {
   font-size: 14px;
   border: none;
-  background-color: #A9A9A9;
+  background-color: $button-color;
   color: white;
   padding: 12px;
   font-weight: 700;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px #888888;
+  box-shadow: $initial-box-shadow;
 }
 
 #portfolio {
