@@ -39,6 +39,13 @@ nav {
   position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 100;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 #logo {
@@ -98,6 +105,7 @@ nav {
 
 #bg-portfolio, #bg-contact{
   background: $rectangle-color1;
+  transform: skewX(-30deg);
 }
 
 #about {
@@ -106,6 +114,7 @@ nav {
 
 #bg-about {
   background: $rectangle-color2;
+  transform: skewX(30deg);
 }
 
 #contact {
@@ -115,6 +124,7 @@ nav {
 .contact-icon {
   width: 45px;
   padding: 35px;
+  transform: skewX(30deg);
 }
 
 .contact-icon:hover {
@@ -123,4 +133,5 @@ nav {
 
 .footer {
   text-align: center;
+  color: $navbar-font-color;
 }

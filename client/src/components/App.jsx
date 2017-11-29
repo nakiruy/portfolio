@@ -21,12 +21,14 @@ class App extends React.Component {
     return (
       <div>
         <NavBar />
-        <Headline />
-        <ContactButton />
-        <Portfolio />
-        <About />
-        <Contact />
-        <Footer />
+        <div className="content">
+          <Headline />
+          <ContactButton />
+          <Portfolio />
+          <About />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     )
   }
