@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div className="subtitle" id="portfolio">
-        <div className="parallelogram" id="bg-portfolio">
+        <div className="rectangle" id="bg-portfolio">
           <h5 id="portfolio-title">PORTFOLIO</h5>
         </div>
       </div>

@@ -7,6 +7,8 @@ $initial-box-shadow: 1px 1px 5px #888888;
 $button-color: #A9A9A9;
 $rectangle-color1: #FFFDF1;
 $rectangle-color2: #EEEEEE;
+$skew: skewX(60deg);
+$inverse-skew: skewX(-60deg);
 
 
 body {
@@ -73,7 +75,7 @@ nav {
 
 #contact-button {
   text-align: center;
-  padding: 0px 0px 50px 0px;
+  padding: 0px 0px 100px 0px;
 }
 
 .button {
@@ -90,49 +92,44 @@ nav {
 .subtitle {
   font-weight: bold;
   font-size: 18px;
+  text-align: center;
 }
 
-.parallelogram {
+.rectangle {
   width: 100%;
-  height: 300px;
-  padding: 100px 0px 0px 0px;
+  height: 500px;
+  // margin: -50px 0px 0px 0px;
+  padding: 200px 0px 0px 0px;
 }
 
 #portfolio {
-  text-align: center;
   margin: 100px 0px 0px;
 }
 
 #contact-title, #portfolio-title {
-  transform: skewX(30deg);
+  // transform: $skew;
+  // margin: 0px 475px 0px 0px;
 }
 
 #bg-portfolio, #bg-contact{
   background: $rectangle-color1;
-  transform: skewX(-30deg);
+  // transform: $inverse-skew;
 }
 
 #about-title {
-  transform: skewX(-30deg);
-}
-
-#about {
-  text-align: center;
+  // transform: $inverse-skew;
+  // margin: 0px 0px 0px 475px;
 }
 
 #bg-about {
   background: $rectangle-color2;
-  transform: skewX(30deg);
-}
-
-#contact {
-  text-align: center;
+  // transform: $skew;
 }
 
 .contact-icon {
   width: 45px;
   padding: 35px;
-  transform: skewX(30deg);
+  // transform: $skew;
 }
 
 .contact-icon:hover {
