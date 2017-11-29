@@ -11,8 +11,10 @@ class About extends React.Component {
 
   render() {
     return (
-      <div id="about">
-        <h5>ABOUT</h5>
+      <div className="subtitle" id="about">
+        <div className="parallelogram" id="bg-about">
+          <h5>ABOUT</h5>
+        </div>
       </div>
     )
   }

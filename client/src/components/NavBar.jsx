@@ -11,13 +11,13 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="navBar">
+      <div className="navbar">
         <div id="logo">YJ</div>
         <nav>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Resume</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
         </nav>
       </div>
     )

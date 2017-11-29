@@ -16,7 +16,7 @@ class ContactButton extends React.Component {
   render() {
     return (
       <div id="contact-button">
-        <button onClick={this.handleClick}>LET'S CONNECT 👋</button>
+        <button className="button" onClick={this.handleClick}>LET'S CONNECT 👋</button>
       </div>
     )
   }
