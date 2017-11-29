@@ -13,7 +13,7 @@ class Contact extends React.Component {
     return (
       <div className="subtitle" id="contact">
         <div className="parallelogram" id="bg-contact">
-          <h5>CONTACT</h5>
+          <h5 id="contact-title">CONTACT</h5>
           <a href="https://www.instagram.com/yurikaffeine/">
             <img className="contact-icon" src="./assets/instagram.png" alt="Instagram" /></a>
           <a href="https://github.com/nakiruy">

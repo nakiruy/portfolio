@@ -103,8 +103,16 @@ nav {
   margin: 100px 0px 0px;
 }
 
+#contact-title, #portfolio-title {
+  transform: skewX(30deg);
+}
+
 #bg-portfolio, #bg-contact{
   background: $rectangle-color1;
+  transform: skewX(-30deg);
+}
+
+#about-title {
   transform: skewX(-30deg);
 }
 

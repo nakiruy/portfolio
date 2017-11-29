@@ -13,7 +13,7 @@ class About extends React.Component {
     return (
       <div className="subtitle" id="about">
         <div className="parallelogram" id="bg-about">
-          <h5>ABOUT</h5>
+          <h5 id="about-title">ABOUT</h5>
         </div>
       </div>
     )

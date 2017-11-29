@@ -13,7 +13,7 @@ class Portfolio extends React.Component {
     return (
       <div className="subtitle" id="portfolio">
         <div className="parallelogram" id="bg-portfolio">
-          <h5>PORTFOLIO</h5>
+          <h5 id="portfolio-title">PORTFOLIO</h5>
         </div>
       </div>
     )
