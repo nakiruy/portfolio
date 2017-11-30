@@ -15,6 +15,9 @@ class Portfolio extends React.Component {
         <div className="triangle1"></div>
         <div className="rectangle" id="bg-portfolio">
           <h5 id="portfolio-title">PORTFOLIO</h5>
+          <div className="square" id="proj1"></div>
+          <div className="square" id="proj2"></div>
+          <div className="square" id="proj3"></div>
         </div>
       </div>
     )
