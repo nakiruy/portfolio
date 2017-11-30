@@ -70,10 +70,11 @@ nav {
 
 .line {
   height: 1px;
-  border-bottom: 1px solid $button-color;
-  width: 50%;
+  border-bottom: 2px solid #A9A9A9;
+  width: 40%;
   position: relative;
-  left: 25%;
+  left: 30%;
+  opacity: 0.3;
 }
 
 #headline {
@@ -87,6 +88,7 @@ nav {
 }
 
 .button {
+  margin: 25px 0px 0px 0px;
   font-size: 14px;
   border: none;
   background-color: $button-color;
@@ -101,6 +103,7 @@ nav {
   font-weight: bold;
   font-size: 18px;
   text-align: center;
+  text-shadow: 0px 0px black;
 }
 
 .rectangle {
@@ -122,14 +125,15 @@ nav {
 }
 
 .triangle2 {
-  margin: -180px;
+  margin: -75px;
   width: 0;
   height: 0;
   border-top: 75px solid transparent;
-  border-right: 1700px solid white;
+  border-right: 1500px solid white;
   border-bottom: 200px solid transparent;
   z-index: 50;
   position: relative;
+  float: right;
 }
 
 #portfolio {
@@ -173,4 +177,9 @@ nav {
 .footer {
   text-align: center;
   color: $navbar-font-color;
+}
+
+#credit {
+  color: $button-color;
+  font-size: 8px;
 }
