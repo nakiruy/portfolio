@@ -7,8 +7,6 @@ $initial-box-shadow: 1px 1px 5px #888888;
 $button-color: #A9A9A9;
 $rectangle-color1: #FFFDF1;
 $rectangle-color2: #EEEEEE;
-$skew: skewX(60deg);
-$inverse-skew: skewX(-60deg);
 $proj1-color: #53739A;
 $proj2-color: #AB5788;
 $proj3-color: #529C7C;
@@ -118,13 +116,18 @@ nav {
 }
 
 .square {
-  width: 300px;
-  height: 300px;
-  background-color: white;
+  width: 350px;
+  height: 350px;
   position: relative;
   display: inline-block;
-  margin: 110px 150px 0px 0px;
-  left: 5%;
+  margin: 110px 75px 0px 0px;
+}
+
+.portfolio-img {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  left: 3%;
 }
 
 #proj1 {
@@ -172,27 +175,19 @@ nav {
 
 #bg-portfolio, #bg-contact{
   background: $rectangle-color1;
-  // transform: $inverse-skew;
 }
 
 #bg-contact {
   height: 200px;
 }
 
-#about-title {
-  // transform: $inverse-skew;
-  // margin: 0px 0px 0px 475px;
-}
-
 #bg-about {
   background: $rectangle-color2;
-  // transform: $skew;
 }
 
 .contact-icon {
   width: 45px;
   padding: 35px;
-  // transform: $skew;
   margin: 100px 0px 0px 0px;
 }
 
