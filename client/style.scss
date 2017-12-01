@@ -47,6 +47,7 @@ nav {
 }
 
 .content {
+  position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -183,6 +184,13 @@ nav {
 
 #bg-about {
   background: $rectangle-color2;
+}
+
+#about-description {
+  margin: 100px;
+  color: $navbar-font-color;
+  font-weight: 500;
+  text-align: center;
 }
 
 .contact-icon {
