@@ -15,10 +15,8 @@ class About extends React.Component {
       <div className="triangle2"></div>
         <div className="rectangle" id="bg-about">
           <h5 id="about-title">ABOUT</h5>
-          <h6 id="about-description">
-            Hi there! I'm Yurika.
-            
-          </h6>
+          <h1 id="about-description">Hi there! I'm Yurika.</h1>
+          <p id="about-description">Ello</p>
         </div>
       </div>
     )
