@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "build": "webpack --watch",
-    "postinstall": "webpack --watch"
+    "postinstall": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",
