@@ -108,7 +108,7 @@ nav {
 
 .button:active {
   background-color: $button-color;
-  transform: translateY(2px);
+  transform: translateY(4px);
 }
 
 .subtitle {
@@ -206,6 +206,11 @@ nav {
   color: $navbar-font-color;
   font-weight: 100;
   text-align: center;
+}
+
+p.about-description {
+  margin: -75px 0px 0px 100px;
+  text-align: left;
 }
 
 .contact-icon {
