@@ -185,6 +185,11 @@ nav {
   margin: 100px 0px 0px;
 }
 
+.projectImages {
+  height: 80%;
+  margin: 35px 0px 0px 0px;
+}
+
 #contact-title, #portfolio-title, #about-title {
   margin: -50px;
 }
@@ -209,8 +214,16 @@ nav {
 }
 
 p.about-description {
-  margin: -75px 0px 0px 100px;
+  margin: -250px 0px 0px 0px;
   text-align: left;
+  padding: 150px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 100;
 }
 
 .contact-icon {
