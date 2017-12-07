@@ -139,6 +139,10 @@ nav {
   opacity: 1;
 }
 
+.square:active {
+  opacity: 1;
+}
+
 .portfolio-img {
   position: absolute;
   margin: 0 auto;
@@ -214,7 +218,7 @@ nav {
   text-align: center;
 }
 
-h2, h3 {
+h2 {
   font-weight: 100;
 }
 
@@ -226,6 +230,10 @@ h2, h3 {
 }
 
 .contact-icon:hover {
+  opacity: 0.3;
+}
+
+.contact-icon:active {
   opacity: 0.3;
 }
 
