@@ -5,6 +5,7 @@ import {
   Route,
   Link,
   Redirect,
+  Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
 
@@ -16,7 +17,7 @@ import ThreeScanDesign from './components/ThreeScanRedesign';
 ReactDOM.render(
   <Router>
     <div>
-      <Route exact path="/" component={App} />
-      <Route path="threescan" component={ThreeScanDesign} />
+        <Route exact path="/" component={App} />
+        <Route path="/threescan" component={ThreeScanDesign} />
     </div>
-  </Router>,document.getElementById('app'));
+  </Router>, document.getElementById('app'));
