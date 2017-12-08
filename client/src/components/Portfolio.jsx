@@ -18,23 +18,23 @@ class Portfolio extends React.Component {
           <h5 id="portfolio-title">PORTFOLIO</h5>
 
           <div className="portfolio-img">
-            <div className="square" id="proj1" >
-              <a href="https://buzzhappyhour.herokuapp.com/">
+            <a href="https://buzzhappyhour.herokuapp.com/">
+              <div className="square" id="proj1" >
                 <img className="projectImages" src="./assets/buzz.png" alt=""/>
-              </a>
-            </div>
+              </div>
+            </a>
 
-            <div className="square" id="proj2">
-              <a href="https://face2faceapp.herokuapp.com/">
+            <a href="https://face2faceapp.herokuapp.com/">
+              <div className="square" id="proj2">
                 <img className="projectImages" src="./assets/face2face.png" alt=""/>
-              </a>
-            </div>
+              </div>
+            </a>
 
-            <div className="square" id="proj3">
-              <Link to={'/threescan'}>
+            <Link to={'/threescan'}>
+              <div className="square" id="proj3">
                 <img className="projectImages" src="./assets/3scan.png" alt=""/>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

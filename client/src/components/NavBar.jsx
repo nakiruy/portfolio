@@ -12,7 +12,9 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="navbar">
-        <div id="logo">YJ</div>
+        <a href="http://www.yurika.design">
+          <div id="logo">YJ</div>
+        </a>
         <nav>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
