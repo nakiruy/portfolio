@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import NavBar from './NavBar';
+
 class ThreeScanRedesign extends React.Component {
   constructor(props) {
     super(props);
@@ -11,8 +13,8 @@ class ThreeScanRedesign extends React.Component {
 
   render() {
     return (
-      <div className="three-scan">
-        <h1>3Scan Website Redesign</h1>
+      <div>
+        <NavBar />
       </div>
     )
   }
