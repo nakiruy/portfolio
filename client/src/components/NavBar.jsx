@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { Link } from 'react-router-dom';
+
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -12,9 +14,9 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="navbar">
-        <a href="http://www.yurika.design">
+        <Link to={'/'}>
           <div id="logo">YJ</div>
-        </a>
+        </Link>
         <nav>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
