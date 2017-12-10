@@ -202,7 +202,8 @@ a:link, a:visited{
 }
 
 .projectImages {
-  height: 80%;
+  width: 80%;
+  height: 85%;
   margin: 35px 0px 0px 0px;
 }
 
@@ -224,10 +225,11 @@ a:link, a:visited{
 }
 
 .about-description {
-  margin: 130px 30px 30px 30px;
+  margin: 130px 0px 0px 0px;
   color: $navbar-font-color;
   font-weight: 100;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
