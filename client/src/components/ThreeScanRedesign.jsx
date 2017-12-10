@@ -19,7 +19,7 @@ class ThreeScanRedesign extends React.Component {
         <div className="project-title">
           <h1>3Scan Redesign</h1>
           <h2>Overview</h2>
-            <h3>blahablahahalbka</h3>
+            <h3>3Scan is a digital pathology company that offers automated microscopy services and digitized </h3>
           <h2>Problems</h2>
           <h2>Research</h2>
           <h2>Process</h2>
