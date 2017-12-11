@@ -30,11 +30,11 @@ class Portfolio extends React.Component {
               </div>
             </a>
 
-            <Link to={'/threescan'}>
+            {/* <Link to={'/threescan'}> */}
               <div className="square" id="proj3">
                 <img className="projectImages" src="./assets/3scan.png" alt=""/>
               </div>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </div>
