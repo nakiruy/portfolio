@@ -1,7 +1,7 @@
 $body-font: 'Lato', sans-serif;
 $navbar-font: 'Roboto', sans-serif;
 $logo-font: 'Pacifico', cursive;
-$name-font: 'Work Sans', sans-serif;
+$name-font: 'Unna', serif;
 $navbar-font-color: #505050;
 $initial-box-shadow: 1px 1px 5px #888888;
 $button-color: #A9A9A9;
@@ -78,8 +78,10 @@ a:link, a:visited{
 }
 
 #name {
-  font-size: 54px;
+  font-size: 64px;
+  margin: 10px;
   font-family: $name-font;
+  letter-spacing: 2px;
 }
 
 .line {
