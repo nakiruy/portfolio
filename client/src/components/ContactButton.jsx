@@ -18,7 +18,7 @@ class ContactButton extends React.Component {
       <div id="contact-button">
         <a href="mailto:nakiruy@gmail.com">
           <button className="button" onClick={this.handleClick}>
-              LET'S CONNECT 👋
+              LET'S CONNECT
           </button>
         </a>
       </div>

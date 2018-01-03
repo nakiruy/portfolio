@@ -21,7 +21,7 @@ class NavBar extends React.Component {
         <nav>
           <li><HashLink to={'/#portfolio'}>WORK</HashLink></li>
           <li><HashLink to={'/#about'}>ABOUT</HashLink></li>
-          <li><a href="https://drive.google.com/file/d/1fuKg2XKj56TqhvQHxgZbZ-oWHtVIc1ec">RESUME</a></li>
+          <li><a href="https://drive.google.com/file/d/1m4uSZE__q5iDSYe9XhtaCH16rljlH1go">RESUME</a></li>
           <li><HashLink to={'/#contact'}>CONTACT</HashLink></li>
         </nav>
       </div>
