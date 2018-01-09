@@ -12,6 +12,10 @@ $proj2-color: #AB5788;
 $proj3-color: #529C7C;
 
 
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   font-family: $body-font;
   margin: 0;
@@ -96,6 +100,8 @@ a:link, a:visited{
 #headline {
   font-size: 32px;
   font-weight: 100;
+  font-family: "Unna", serif;
+  font-style: italic;
 }
 
 #contact-button {
@@ -177,7 +183,7 @@ a:link, a:visited{
 }
 
 .triangle1 {
-  margin: -150px;
+  margin: -50px;
   width: 0;
   height: 0;
   border-top: 50px solid transparent;

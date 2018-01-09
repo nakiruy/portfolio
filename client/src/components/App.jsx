@@ -23,7 +23,6 @@ class App extends React.Component {
         <NavBar />
         <div className="content">
           <Headline />
-          <ContactButton />
           <Portfolio />
           <About />
           <Contact />
