@@ -12,7 +12,6 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="subtitle" id="contact">
-        <div className="triangle1"></div>
         <div className="rectangle" id="bg-contact">
           <div className="social-media">
             <h5 id="contact-title">CONTACT</h5>

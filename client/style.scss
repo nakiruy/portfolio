@@ -78,6 +78,7 @@ a:link, a:visited{
 
 #header {
   text-align: center;
+  margin: 0px 0px 250px 0px;
   padding: 150px 0px 0px 0px;
 }
 
@@ -140,7 +141,7 @@ a:link, a:visited{
 .rectangle {
   width: 100%;
   height: 600px;
-  margin: -140px 0px 0px 0px;
+  margin: -160px 0px 0px 0px;
   padding: 200px 0px 0px 0px;
 }
 
@@ -226,15 +227,20 @@ a:link, a:visited{
 }
 
 #contact-title, #portfolio-title, #about-title {
-  margin: -50px;
+  margin: -20px;
 }
 
-#bg-portfolio, #bg-contact{
+#bg-portfolio {
   background: $rectangle-color1;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 }
 
 #bg-contact {
-  height: 200px;
+  background: $rectangle-color1;
+  height: 300px;
+  -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
 }
 
 #bg-about {
@@ -243,7 +249,7 @@ a:link, a:visited{
 }
 
 .about-description {
-  margin: 15% 0px 0px 0px;
+  margin: 10% 0px 0px 0px;
   color: $navbar-font-color;
   font-weight: 100;
   text-align: center;
